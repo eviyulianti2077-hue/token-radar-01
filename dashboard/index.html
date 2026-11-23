@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07100f">
+  <title>Token Radar | Protocol Intelligence</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Skip to the radar</a>
+  <div class="app-shell" id="workspace" aria-busy="true">
+    <header class="topbar">
+      <a class="brand" href="#workspace" aria-label="Token Radar home">
+        <span class="brand-mark">R</span>
+        <span><b>TOKEN RADAR</b><small>PROTOCOL INTELLIGENCE</small></span>
+      </a>
+      <div class="topbar-meta"><span class="live-dot"></span><span>SEALED SNAPSHOT</span><span class="meta-divider"></span><span id="snapshot-date">--</span></div>
+    </header>
+    <main id="app" aria-live="polite"></main>
+    <footer class="site-footer">
+      <span>Research interface only. Not investment advice.</span>
+      <span>Model output is an estimate, never a token-launch prediction.</span>
+    </footer>
+  </div>
+  <div class="drawer-scrim" id="scrim" hidden></div>
+  <aside class="detail-drawer" id="detail" role="dialog" aria-modal="true" aria-labelledby="detail-title" aria-hidden="true" hidden>
+    <div id="detail-content"></div>
+  </aside>
+  <script src="../data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
