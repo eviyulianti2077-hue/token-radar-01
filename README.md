@@ -1,6 +1,10 @@
+[![make.fun](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01)
+[![make.fun Rank](https://make.fun/badge/token-radar-01/eviyulianti2077-hue/token-radar-01/rank.svg)](https://make.fun/bounty/token-radar-01)
+[![make.fun Reward](https://make.fun/badge/token-radar-01/eviyulianti2077-hue/token-radar-01/reward.svg)](https://make.fun/bounty/token-radar-01)
+
 # Token Radar
 
-Token Radar is a deterministic, offline research dashboard for the `token-radar-01` competition. It ranks protocols whose sealed DefiLlama snapshot records no token, keeps every watchlist protocol, adds up to 160 eligible below-floor protocols, and separates token-bearing references from the pre-token ranking.
+Token Radar is a deterministic, offline research dashboard for the [`token-radar-01` make.fun bounty](https://make.fun/bounty/token-radar-01). It ranks protocols whose sealed DefiLlama snapshot records no token, keeps every watchlist protocol, adds up to 160 eligible below-floor protocols, and separates token-bearing references from the pre-token ranking.
 
 ## Run
 
